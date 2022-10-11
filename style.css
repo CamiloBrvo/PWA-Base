@@ -1,0 +1,21 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.modal{
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    padding: 3px 3px;
+    background: #D8D9DA;
+    position: absolute;
+    transform: translate(-50%, -50%) scale(1.4);
+}
+
+.modal .header {
+    background-color: blue;
+    color: white;
+}   

@@ -17,6 +17,8 @@
 
 <!-- Manifest File link -->
 <link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -26,9 +28,22 @@
     <p>SQUife, inc is the best.</p>
 
 
+    <div class="modal" id="modal">
+        <div class="header" id="modalHeader">
+            <p>This is a top modal</p>
+        </div>
+
+        <div class="body" id="modalBody">
+            <p>This is a draggable div which is a draggable div which is a draggable div which </p>
+        </div>
+    </div>
+    
+
+    <script src="drag.js"></script>
+
     <script>
         window.addEventListener('load', () => {
-        registerSW();
+            registerSW();
         });
 
         // Register the Service Worker
